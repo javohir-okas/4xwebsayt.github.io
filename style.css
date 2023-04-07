@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin-top: 60px;
+}
+
+h2 {
+  margin-bottom: -3px;
+}
+
+/*Media */
+
+@media only screen and (max-width: 360px) {
+  .p2 {
+    max-width: 360px;
+    display: none;
+    margin: 8px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+    p{
+        text-align: center
+    }
+}
